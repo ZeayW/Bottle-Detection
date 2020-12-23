@@ -377,7 +377,7 @@ def train(hyp, opt, device, tb_writer=None, wandb=None):
             fi = fitness(np.array(results).reshape(1, -1))  # weighted combination of [P, R, mAP@.5, mAP@.5-.95]
             if fi > best_fitness:
                 best_fitness = fi
-
+            print(fi," ",best_fitness)
             # Save model
             save = (not opt.nosave) or (final_epoch and not opt.evolve)
             if save:
