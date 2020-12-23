@@ -1,2 +1,2 @@
-# Bottle-Detection
-Fudan CS Course CV final PJ
+# GlassBottle-Dectection
+ Fudan CS Course CV final PJ
